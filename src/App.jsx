@@ -7,7 +7,7 @@ import SavedLocations from './pages/SavedLocations'
 const App = () => {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/weather-app" element={<Home />} />
       <Route path="/search-result" element={<SearchResult />} />
       <Route path="/saved-locations/" element={<SavedLocations />} />
     </Routes>
