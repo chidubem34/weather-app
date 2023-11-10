@@ -55,7 +55,13 @@ const SearchResult = () => {
         backgroundSize: 'cover'
       }}>
       {isModalOpen && <Modal />}
-      <div className='sm:w-[80%] lg:w-[60%] w-[90%] rounded-xl py-[60px] px-[20px] search min-h-[400px]:'>
+      <div
+        className='sm:w-[80%] lg:w-[60%] w-[90%] rounded-xl py-[60px] px-[20px] search min-h-[400px]:'
+        style={{
+          backgroundColor: 'rgba(255, 255, 255, 0.15)',
+          backdropFilter: 'blur(10px)',
+          boxShadow: '0 8px 32px #1f26875e',
+        }}>
         <div className="mb-6">
           <Link to={'/weather-app'}><BsArrowLeftCircleFill className='' size={50} role='button' /></Link>
         </div>
