@@ -9,7 +9,7 @@ const SavedLocations = () => {
     return (
         <div className='saved'>
             <div className='mx-36 py-10'>
-                <Link to={'/'}><BsArrowLeftCircleFill className='text-white' size={50} role='button' /></Link>
+                <Link to={'/weather-app'}><BsArrowLeftCircleFill className='text-white' size={50} role='button' /></Link>
                 <div className='w-[80%] mx-auto text-white flex justify-center items-center'>
                     <div className='flex flex-col gap-y-10 text-center'>
                         <p className='text-6xl'>Saved Locations</p>

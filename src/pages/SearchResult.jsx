@@ -57,7 +57,7 @@ const SearchResult = () => {
       {isModalOpen && <Modal />}
       <div className='sm:w-[80%] lg:w-[60%] w-[90%] rounded-xl py-[60px] px-[20px] search min-h-[400px]:'>
         <div className="mb-6">
-          <Link to={'/'}><BsArrowLeftCircleFill className='' size={50} role='button' /></Link>
+          <Link to={'/weather-app'}><BsArrowLeftCircleFill className='' size={50} role='button' /></Link>
         </div>
 
         <div>

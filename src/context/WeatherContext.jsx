@@ -1,5 +1,5 @@
 import React,{ useReducer, useContext } from "react";
-import { defaultState, reducer } from "../pages/utils/data";
+import { defaultState, reducer } from "../utils/data";
 const weatherContext = React.createContext();
 
 export const WeatherContextProvider = ({ children }) => {
