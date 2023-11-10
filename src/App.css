@@ -1,0 +1,6 @@
+.saved {
+    min-height: 100vh;
+    background: linear-gradient(45deg, #000000c7, #000000c9), url('./assets/images/favorite.jpg') no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
